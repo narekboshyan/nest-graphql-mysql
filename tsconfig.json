@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "resolveJsonModule": true,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "modules/*": ["src/modules/*"],
+      "utils/*": ["src/utils/*"],
+      "guards/*": ["src/guards/*"],
+      "decorators/*": ["src/decorators/*"],
+      "models/*": ["src/database/models/*"],
+      "common/*": ["src/common/*"],
+      "operations/*": ["src/operations/*"],
+      "shared/*": ["src/shared/*"],
+      "responses/*": ["src/responses/*"],
+      "interceptors/*": ["src/interceptors/*"],
+      "validators/*": ["src/validators/*"],
+      "constants/*": ["src/constants/*"],
+      "enums/*": ["src/database/models/trymyui/enums/*"]
+    }
+  }
+}
